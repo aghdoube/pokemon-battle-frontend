@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@import url('https://googleapis.com');
+
+
+@layer base {
+  :root, html, body {
+    font-family: 'Inter', sans-serif !important;
+    background: #0b0f19 !important; 
+    color: #31669b !important;        
+    min-height: 100vh !important;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+h1, h2, .accent-text {
+  color: #4599ed !important;
+}
+
+.card {
+  background: #111827 !important;       
+  border: 1px solid #1f2937 !important;  
+  border-radius: 8px !important;         
+  padding: 1rem 1.25rem !important;      
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.card:hover {
+  transform: translateY(-2px) !important; /* Minimales, edles Anheben */
+  border-color: #4599ed !important;
+  box-shadow: 0 0 15px rgba(69, 153, 237, 0.2) !important;
+}
+
+
+button {
+  background: #1f2937 !important;
+  color: rgb(21, 6, 6) !important;
+  border: 1px solid #374151 !important;
+  font-weight: 500 !important;
+  padding: 0.6rem 1.2rem !important;
+  border-radius: 6px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+button:hover {
+  background-color: #374151 !important;
+  border-color: #4599ed !important; 
+}
