@@ -4,11 +4,11 @@
 
 |               Main Dashboard                |           Team Selection            |
 | :-----------------------------------------: | :---------------------------------: |
-| ![Dashboard Interface](screenshot-ui-1.png) | ![Team Roster](screenshot-ui-2.png) |
+| ![Dashboard Interface](public/screenshot-ui-1.png) | ![Team Roster](public/screenshot-ui-2.png) |
 
 |               Battle Arena                |               Leaderboard                |
 | :---------------------------------------: | :--------------------------------------: |
-| ![Battle Simulation](screenshot-ui-3.png) | ![Global Standings](screenshot-ui-4.png) |
+| ![Battle Simulation](public/screenshot-ui-3.png) | ![Global Standings](public/screenshot-ui-4.png) |
 
 ---
 
